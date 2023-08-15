@@ -1,7 +1,9 @@
 package com.example.store.service;
 
-import java.util.List;
+import org.springframework.stereotype.Service;
 
+import java.util.List;
+@Service
 public class CartServiceImpl implements CartService {
 
     private final Cart cart;
